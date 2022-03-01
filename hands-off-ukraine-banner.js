@@ -98,7 +98,7 @@ template.innerHTML = `
       </div>
 `;
 
-class handsOffUkraineBanner extends HTMLElement {
+export class handsOffUkraineBanner extends HTMLElement {
   constructor() {
     super();
 
@@ -134,4 +134,4 @@ class handsOffUkraineBanner extends HTMLElement {
   }
 }
 
-window.customElements.define("hands-off-ukraine-banner", handsOffUkraineBanner);
+customElements.define("hands-off-ukraine-banner", handsOffUkraineBanner);
