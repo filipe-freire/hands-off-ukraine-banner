@@ -1,6 +1,6 @@
 {
   "name": "hands-off-ukraine-banner",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A banner web component that enables companies/individuals to quickly show their support for Ukraine regarding the recent Russian invasion. It hopes to raise awareness to the incident and allow users to quickly access suport websites & donate.",
   "type": "module",
   "main": "index.js",
