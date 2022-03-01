@@ -11,7 +11,7 @@ template.innerHTML = `
 
       .hands-off-ukraine-banner {
         padding: 1rem;
-        background-image: linear-gradient(130deg, #245ba2, #fed401);
+        background-color: #6495ed;
         box-shadow: rgba(0, 0, 0, 0.6) 0px 2px 4px;
         color: white;
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -33,7 +33,7 @@ template.innerHTML = `
 
       .hands-off-ukraine-link {
         display: block;
-        color: #73def5;
+        color: yellow;
         font-weight: 600;
         margin-top: 0.8rem;
       }
@@ -56,7 +56,8 @@ template.innerHTML = `
       }
 
       .support-ukraine-link{
-          color: blue
+          color: yellow;
+          font-weight: 600;
       }
 
       @media screen and (min-width: 830px) {
@@ -72,14 +73,14 @@ template.innerHTML = `
 
         .hands-off-ukraine-link {
           margin-top: auto;
-          color: #070707;
+          color: yellow;
         }
       }
     </style>
 
     <div class="hands-off-ukraine-banner">
         <div class="text-wrapper">
-          <p><span>ACME</span> supports Ukraine against Russia's invasion. <a aria-label="Ways to support Ukraine against Russian invasion." target="_blank"
+          <p>We support the people of Ukraine against Russia's full-scale invasion. <a aria-label="Ways to support Ukraine against Russian invasion." target="_blank"
             rel="noreferrer"
             class="support-ukraine-link"
             href="https://linktr.ee/razomforukraine">Here's how you can too.</a></p>
@@ -92,10 +93,11 @@ template.innerHTML = `
           >
         </div>
         <button class="close-banner-button" aria-label="close banner">
-          <img alt="" class="close-icon" src="./x-10326.svg" />
+          <img alt="" class="close-icon" src="./close-icon.svg" />
         </button>
       </div>
 `;
+
 class handsOffUkraineBanner extends HTMLElement {
   constructor() {
     super();
