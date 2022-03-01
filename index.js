@@ -98,7 +98,7 @@ template.innerHTML = `
       </div>
 `;
 
-export class handsOffUkraineBanner extends HTMLElement {
+class handsOffUkraineBanner extends HTMLElement {
   constructor() {
     super();
 
