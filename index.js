@@ -121,7 +121,7 @@ class handsOffUkraineBanner extends HTMLElement {
 
   connectedCallback() {
     this.shadowRoot
-      .querySelector(".close-icon")
+      .querySelector(".close-banner-button")
       .addEventListener("click", (e) => {
         console.log(e);
         this.shadowRoot
@@ -130,7 +130,7 @@ class handsOffUkraineBanner extends HTMLElement {
       });
   }
   disconnectedCallback() {
-    this.shadowRoot.querySelector(".close-icon").removeEventListener();
+    this.shadowRoot.querySelector(".close-banner-button").removeEventListener();
   }
 }
 
