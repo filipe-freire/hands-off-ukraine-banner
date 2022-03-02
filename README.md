@@ -2,6 +2,8 @@
 
 ▶️ This banner includes easy access links to support Ukraine against the deliberate military invasion of Russia.
 
+It was built as a Web Component to facilitate its integration between all the frontend library/frameworks used.
+
 ## Usage
 
 ```
